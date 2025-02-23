@@ -1,0 +1,54 @@
+# ❌ Ignorar archivos generados por Maven
+target/
+*.jar
+*.war
+*.ear
+
+# ❌ Ignorar configuraciones de Maven y caché
+.mvn/
+!**/.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# ❌ Ignorar archivos del IDE (IntelliJ, Eclipse, VS Code, NetBeans)
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+
+# ❌ Ignorar logs, archivos de compilación y binarios
+logs/
+*.log
+hs_err_pid*
+bin/
+out/
+
+# ❌ Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# ❌ Ignorar archivos de Docker
+docker-compose.override.yml
+*.env
+docker/data/
+
+# ❌ Ignorar credenciales y configuraciones sensibles
+*.pem
+*.key
+*.p12
+*.crt
+*.cert
+*.jks
+
+# ❌ Ignorar archivos temporales de edición
+*.swp
+*.swo
+*.bak
+*.tmp
