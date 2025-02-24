@@ -119,10 +119,20 @@ El proyecto incluye un conjunto de pruebas automatizadas para garantizar el corr
 ## Pruebas de despliegue 
 
 1, **Contenedor en docker**
-![image](https://github.com/user-attachments/assets/5092d253-f5f1-4234-8853-46e485e379d3)
+
+Ejecutamos este comando para construir la imagen 
+
+`docker build --tag my-web-server .`
+
+`docker run -d -p 32001:32000 --name seconddockercontainer my-web-server` 
 
 
 ![image](https://github.com/user-attachments/assets/aec20eac-50e9-4805-b3da-f97922072fcb)
+
+Realizamos la prueba en el navegador en el puerto 32001
+
+![image](https://github.com/user-attachments/assets/5092d253-f5f1-4234-8853-46e485e379d3)
+
 
 
 ![image](https://github.com/user-attachments/assets/d1cd9ca0-9bab-47d6-8f05-e6716d62bff3)
@@ -132,13 +142,24 @@ El proyecto incluye un conjunto de pruebas automatizadas para garantizar el corr
 
 2, **AWS con EC2**
 
+Creamos las instancias de EC2 con la siguiente configuración:
+
+![image](https://github.com/user-attachments/assets/24684a60-256c-48ce-84f9-38a4dda42cad)
+
+
+Para ejecutar el despliegue en AWS:
+
+![image](https://github.com/user-attachments/assets/bcd8856a-3e26-48c4-8b70-c95a7e52d581)
+
+
+
 ![image](https://github.com/user-attachments/assets/f2fe75a7-d53e-4635-93b7-0c8b27c7899f)
 
 
-![image](https://github.com/user-attachments/assets/a1ae5e28-82d3-4e79-ae5c-68a0a824189a)
 
 
-![image](https://github.com/user-attachments/assets/d944b19c-5d1b-44b7-b05c-2e8492d0e6ad)
+
+https://github.com/user-attachments/assets/5bbd8cb3-1cdb-4588-a603-e91281b083e2
 
 
 
